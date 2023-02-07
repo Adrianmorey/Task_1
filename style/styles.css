@@ -89,11 +89,10 @@ nav a {
 }
 
 nav a:hover {
-  width: 90%;
-  height: 3rem;
   color: yellow;
   background-color: black;
   align-items: center;
+  transition: 1s ease;
 }
 
 section {
@@ -259,4 +258,14 @@ footer:hover {
   color: red;
   background-color: white;
 
+}
+fieldset {
+  border: 1px solid black;
+  padding: 1rem;
+}
+label {
+  padding:0.5rem;
+}
+select {
+  margin: 1rem;
 }
